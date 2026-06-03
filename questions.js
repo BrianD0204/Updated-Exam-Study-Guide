@@ -1163,5 +1163,185 @@ const questions = [
     ],
     "answer": 0,
     "explanation": "Same y-intercept means Vmax unchanged; changed x-intercept reflects increased Km."
+  },
+  {
+    "topic": "Endocrine Signaling",
+    "question": "A cell releases a chemical messenger that enters the bloodstream and affects cells in a distant organ. This is an example of:",
+    "choices": [
+      "Autocrine signaling",
+      "Paracrine signaling",
+      "Endocrine signaling",
+      "Neuroendocrine signaling"
+    ],
+    "answer": 2,
+    "explanation": "Endocrine signaling uses hormones that travel through the bloodstream to distant target organs."
+  },
+  {
+    "topic": "Endocrine Signaling",
+    "question": "A hormone secreted by a cell binds to receptors on the same cell that released it. This is:",
+    "choices": [
+      "Endocrine",
+      "Paracrine",
+      "Autocrine",
+      "Neuroendocrine"
+    ],
+    "answer": 2,
+    "explanation": "Autocrine signaling means the signal acts on the same cell that released it. Auto = self."
+  },
+  {
+    "topic": "Endocrine Signaling",
+    "question": "Nitric oxide released by endothelial cells causes nearby smooth muscle relaxation. This is:",
+    "choices": [
+      "Endocrine",
+      "Paracrine",
+      "Autocrine",
+      "Neuroendocrine"
+    ],
+    "answer": 1,
+    "explanation": "Paracrine signals act locally on nearby cells in the same tissue."
+  },
+  {
+    "topic": "Endocrine Signaling",
+    "question": "ADH, also called vasopressin, released from the posterior pituitary is an example of:",
+    "choices": [
+      "Paracrine signaling",
+      "Autocrine signaling",
+      "Neuroendocrine signaling",
+      "Juxtacrine signaling"
+    ],
+    "answer": 2,
+    "explanation": "ADH is released by neurons into the bloodstream, making it neuroendocrine signaling."
+  },
+  {
+    "topic": "Endocrine Signaling",
+    "question": "Which signaling mechanism is generally fastest because it acts locally rather than traveling through the bloodstream?",
+    "choices": [
+      "Endocrine",
+      "Neuroendocrine",
+      "Paracrine",
+      "Long-distance hormonal signaling"
+    ],
+    "answer": 2,
+    "explanation": "Paracrine signaling is usually faster than endocrine signaling because it acts on nearby cells through local diffusion."
+  },
+  {
+    "topic": "Endocrine Signaling",
+    "question": "Which signaling mechanism requires transport through the bloodstream to reach distant target cells?",
+    "choices": [
+      "Paracrine",
+      "Autocrine",
+      "Endocrine",
+      "Juxtacrine"
+    ],
+    "answer": 2,
+    "explanation": "Endocrine hormones are secreted into blood and travel to distant targets."
+  },
+  {
+    "topic": "Endocrine Signaling",
+    "question": "Hypothalamic neurons release CRH into the hypophyseal portal circulation to affect the anterior pituitary. This is:",
+    "choices": [
+      "Endocrine",
+      "Autocrine",
+      "Paracrine",
+      "Neuroendocrine"
+    ],
+    "answer": 3,
+    "explanation": "Neuroendocrine signaling occurs when neurons release hormones into blood or portal circulation."
+  },
+  {
+    "topic": "Endocrine Signaling",
+    "question": "A macrophage releases cytokines that influence neighboring immune cells. This is:",
+    "choices": [
+      "Endocrine",
+      "Paracrine",
+      "Autocrine",
+      "Neuroendocrine"
+    ],
+    "answer": 1,
+    "explanation": "Cytokines acting on nearby immune cells are an example of paracrine signaling."
+  },
+  {
+    "topic": "Endocrine Signaling",
+    "question": "Interleukin-2 stimulates proliferation of the same T-cell that secreted it. This is:",
+    "choices": [
+      "Endocrine",
+      "Paracrine",
+      "Autocrine",
+      "Neuroendocrine"
+    ],
+    "answer": 2,
+    "explanation": "When a signal acts on the same cell that secreted it, it is autocrine signaling."
+  },
+  {
+    "topic": "Endocrine Signaling",
+    "question": "Which best distinguishes endocrine signaling from paracrine signaling?",
+    "choices": [
+      "Endocrine signaling uses receptors",
+      "Paracrine signaling uses receptors",
+      "Endocrine signaling acts at distant sites via blood",
+      "Paracrine signaling only occurs in the nervous system"
+    ],
+    "answer": 2,
+    "explanation": "The key difference is distance and route: endocrine signals travel through blood to distant targets, while paracrine signals act locally."
+  },
+  {
+    "topic": "Endocrine Signaling",
+    "question": "A neuron releases oxytocin into the bloodstream. This is:",
+    "choices": [
+      "Endocrine",
+      "Autocrine",
+      "Paracrine",
+      "Neuroendocrine"
+    ],
+    "answer": 3,
+    "explanation": "Neuroendocrine signaling is nerve cell secretion of hormones into blood."
+  },
+  {
+    "topic": "Endocrine Signaling",
+    "question": "Which signaling type acts on neighboring cells without entering the systemic circulation?",
+    "choices": [
+      "Endocrine",
+      "Paracrine",
+      "Neuroendocrine",
+      "Synaptic endocrine"
+    ],
+    "answer": 1,
+    "explanation": "Paracrine signaling affects nearby cells and does not rely on systemic circulation."
+  },
+  {
+    "topic": "Endocrine Signaling",
+    "question": "Which phrase best matches autocrine signaling?",
+    "choices": [
+      "Acts on itself",
+      "Acts far away through blood",
+      "Neuron releases hormone into blood",
+      "Acts only through motor neurons"
+    ],
+    "answer": 0,
+    "explanation": "Autocrine signaling means the cell responds to its own secreted chemical messenger."
+  },
+  {
+    "topic": "Endocrine Signaling",
+    "question": "Which phrase best matches neuroendocrine signaling?",
+    "choices": [
+      "Cell acts on itself",
+      "Neighboring cells communicate locally",
+      "Neuron releases hormone into blood",
+      "Hormone acts without receptors"
+    ],
+    "answer": 2,
+    "explanation": "Neuroendocrine signaling occurs when neurons secrete hormones into the blood."
+  },
+  {
+    "topic": "Endocrine Signaling",
+    "question": "A local growth factor secreted by one cell stimulates nearby cells during wound healing. This is most likely:",
+    "choices": [
+      "Autocrine",
+      "Paracrine",
+      "Endocrine",
+      "Neuroendocrine"
+    ],
+    "answer": 1,
+    "explanation": "Local growth factors acting on nearby cells are usually paracrine signals."
   }
 ];
