@@ -1408,43 +1408,41 @@ const questions = [
     ],
     "answer": 4,
     "explanation": "Noncompetitive inhibitors bind equally well to the free enzyme and enzyme-substrate complex, causing decreased Vmax while Km remains unchanged."
-  }
+  },
   {
-  topic: "Enzyme Inhibition",
-  question: "Which of the following describes a noncompetitive inhibitor?",
-  choices: [
-    "Km is changed, Vmax is changed",
-    "Km is changed, Vmax is unchanged",
-    "Km is unchanged, Vmax is changed",
-    "Km is unchanged, Vmax is unchanged"
-  ],
-  answer: 2,
-  explanation: "Noncompetitive inhibitors bind to a site other than the active site. They decrease Vmax but do not affect substrate binding, so Km remains unchanged."
-},
-
-{
-  topic: "Enzyme Inhibition",
-  question: "Ibuprofen is a competitive inhibitor of cyclooxygenases. Which statement is true about how ibuprofen affects enzymatic reactions?",
-  choices: [
-    "Km is changed, Vmax is changed",
-    "Km is changed, Vmax is unchanged",
-    "Km is unchanged, Vmax is changed",
-    "Km is unchanged, Vmax is unchanged"
-  ],
-  answer: 1,
-  explanation: "Competitive inhibitors increase Km because more substrate is required to reach half-maximal velocity. Vmax remains unchanged because enough substrate can outcompete the inhibitor."
-},
-
-{
-  topic: "Enzyme Inhibition",
-  question: "Methotrexate binds to the active site of dihydrofolate reductase through hydrogen bonding. Methotrexate is most likely which type of inhibitor?",
-  choices: [
-    "Allosteric",
-    "Irreversible competitive",
-    "Reversible competitive",
-    "Uncompetitive"
-  ],
-  answer: 2,
-  explanation: "Methotrexate binds directly to the active site (competitive) and uses hydrogen bonds, which are non-covalent and reversible. Therefore it is a reversible competitive inhibitor."
-}
+    "topic": "Enzyme Inhibition",
+    "question": "Which of the following describes a noncompetitive inhibitor?",
+    "choices": [
+      "Km is changed, Vmax is changed",
+      "Km is changed, Vmax is unchanged",
+      "Km is unchanged, Vmax is changed",
+      "Km is unchanged, Vmax is unchanged"
+    ],
+    "answer": 2,
+    "explanation": "Noncompetitive inhibitors bind to a site other than the active site. They decrease Vmax but do not affect substrate binding, so Km remains unchanged. Memory trick: Noncompetitive = no change in Km."
+  },
+  {
+    "topic": "Enzyme Inhibition",
+    "question": "Ibuprofen is a competitive inhibitor of cyclooxygenases. Which statement is true about how ibuprofen affects enzymatic reactions?",
+    "choices": [
+      "Km is changed, Vmax is changed",
+      "Km is changed, Vmax is unchanged",
+      "Km is unchanged, Vmax is changed",
+      "Km is unchanged, Vmax is unchanged"
+    ],
+    "answer": 1,
+    "explanation": "Competitive inhibitors increase Km because more substrate is required to reach half-maximal velocity. Vmax remains unchanged because enough substrate can outcompete the inhibitor."
+  },
+  {
+    "topic": "Enzyme Inhibition",
+    "question": "Methotrexate binds to the active site of dihydrofolate reductase through hydrogen bonding. Methotrexate is most likely which type of inhibitor?",
+    "choices": [
+      "Allosteric",
+      "Irreversible competitive",
+      "Reversible competitive",
+      "Uncompetitive"
+    ],
+    "answer": 2,
+    "explanation": "Methotrexate binds directly to the active site, making it competitive. It binds through hydrogen bonds, which are weak non-covalent interactions, making it reversible."
+  }
 ];
