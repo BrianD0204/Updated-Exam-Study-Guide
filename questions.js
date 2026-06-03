@@ -1343,74 +1343,70 @@ const questions = [
     ],
     "answer": 1,
     "explanation": "Local growth factors acting on nearby cells are usually paracrine signals."
-  }
+  },
   {
-  topic: "Enzyme Kinetics",
-  question: "What is enzyme kinetics primarily used to study?",
-  choices: [
-    "Enzyme structure determination",
-    "Reaction rates of enzymes",
-    "Enzyme distribution in tissues",
-    "Genetic coding of enzymes",
-    "Membrane transport functions"
-  ],
-  answer: 1,
-  explanation: "Enzyme kinetics studies the reaction rates of enzyme-catalyzed reactions, helping scientists understand biocatalysis and develop drugs."
-},
-
-{
-  topic: "Enzyme Kinetics",
-  question: "How does increasing substrate concentration affect enzyme velocity initially?",
-  choices: [
-    "Velocity immediately plateaus",
-    "Velocity decreases proportionally",
-    "Velocity increases proportionally",
-    "Enzymes denature quickly",
-    "Substrate inhibits velocity"
-  ],
-  answer: 2,
-  explanation: "At low substrate concentrations, increasing substrate concentration causes enzyme velocity to increase proportionally because more active sites become occupied."
-},
-
-{
-  topic: "Enzyme Kinetics",
-  question: "What does Km represent in enzyme kinetics?",
-  choices: [
-    "Maximum enzyme velocity",
-    "Turnover number per enzyme",
-    "Catalytic efficiency ratio",
-    "Substrate concentration at half-Vmax",
-    "Diffusion-limited efficiency"
-  ],
-  answer: 3,
-  explanation: "Km (Michaelis constant) is the substrate concentration required for the reaction velocity to reach 1/2 Vmax. Low Km = high affinity; High Km = low affinity."
-},
-
-{
-  topic: "Enzyme Kinetics",
-  question: "What kinetic pattern indicates a two-substrate ping-pong mechanism on Lineweaver-Burk plots?",
-  choices: [
-    "Intersecting lines at origin",
-    "Parallel lines at varying substrate concentrations",
-    "Intersecting lines off axis",
-    "Single straight line plot",
-    "Lines crossing at y-axis"
-  ],
-  answer: 1,
-  explanation: "A ping-pong (double-displacement) mechanism produces parallel lines on a Lineweaver-Burk plot. Ping-Pong = Parallel Lines."
-},
-
-{
-  topic: "Enzyme Inhibition",
-  question: "Which inhibition type decreases Vmax but keeps Km unchanged?",
-  choices: [
-    "Competitive inhibition",
-    "Uncompetitive inhibition",
-    "Mixed inhibition",
-    "Irreversible inhibition",
-    "Noncompetitive inhibition"
-  ],
-  answer: 4,
-  explanation: "Noncompetitive inhibitors bind equally well to free enzyme and enzyme-substrate complex, causing decreased Vmax while Km remains unchanged."
-},
+    "topic": "Enzyme Kinetics",
+    "question": "What is enzyme kinetics primarily used to study?",
+    "choices": [
+      "Enzyme structure determination",
+      "Reaction rates of enzymes",
+      "Enzyme distribution in tissues",
+      "Genetic coding of enzymes",
+      "Membrane transport functions"
+    ],
+    "answer": 1,
+    "explanation": "Enzyme kinetics studies the reaction rates of enzyme-catalyzed reactions, helping scientists understand biocatalysis and develop drugs."
+  },
+  {
+    "topic": "Enzyme Kinetics",
+    "question": "How does increasing substrate concentration affect enzyme velocity initially?",
+    "choices": [
+      "Velocity immediately plateaus",
+      "Velocity decreases proportionally",
+      "Velocity increases proportionally",
+      "Enzymes denature quickly",
+      "Substrate inhibits velocity"
+    ],
+    "answer": 2,
+    "explanation": "At low substrate concentrations, increasing substrate concentration causes enzyme velocity to increase proportionally because more active sites become occupied."
+  },
+  {
+    "topic": "Enzyme Kinetics",
+    "question": "What does Km represent in enzyme kinetics?",
+    "choices": [
+      "Maximum enzyme velocity",
+      "Turnover number per enzyme",
+      "Catalytic efficiency ratio",
+      "Substrate concentration at half-Vmax",
+      "Diffusion-limited efficiency"
+    ],
+    "answer": 3,
+    "explanation": "Km is the substrate concentration required for reaction velocity to reach 1/2 Vmax. Low Km means high affinity; high Km means low affinity."
+  },
+  {
+    "topic": "Enzyme Kinetics",
+    "question": "What kinetic pattern indicates a two-substrate ping-pong mechanism on Lineweaver-Burk plots?",
+    "choices": [
+      "Intersecting lines at origin",
+      "Parallel lines at varying substrate concentrations",
+      "Intersecting lines off axis",
+      "Single straight line plot",
+      "Lines crossing at y-axis"
+    ],
+    "answer": 1,
+    "explanation": "A ping-pong, or double-displacement, mechanism produces parallel lines on a Lineweaver-Burk plot. Ping-pong equals parallel lines."
+  },
+  {
+    "topic": "Enzyme Inhibition",
+    "question": "Which inhibition type decreases Vmax but keeps Km unchanged?",
+    "choices": [
+      "Competitive inhibition",
+      "Uncompetitive inhibition",
+      "Mixed inhibition",
+      "Irreversible inhibition",
+      "Noncompetitive inhibition"
+    ],
+    "answer": 4,
+    "explanation": "Noncompetitive inhibitors bind equally well to the free enzyme and enzyme-substrate complex, causing decreased Vmax while Km remains unchanged."
+  }
 ];
