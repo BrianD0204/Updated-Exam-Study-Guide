@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>❤️❤️❤️ You got this ❤️❤️❤️</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <header>
+    <button id="darkToggle" class="dark-toggle">🌙 Dark Mode</button>
+    <h1>🤍 Dr.Kristal's Exam Study Guide 🤍</h1>
+    <p>Study Mode • Quiz Mode • Flashcards • Random Exam • Missed Questions</p>
+  </header>
+
+  <main>
+    <section class="controls">
+      <input id="search" type="text" placeholder="Search questions...">
+      <select id="topicFilter"><option value="All">All Topics</option></select>
+      <select id="modeSelect">
+        <option value="study">Study Mode</option>
+        <option value="quiz">Quiz Mode</option>
+        <option value="flashcards">Flashcards</option>
+        <option value="random">Random 25 Exam</option>
+        <option value="missed">Missed Questions</option>
+      </select>
+      <button id="shuffleBtn">Shuffle</button>
+      <button id="resetBtn">Reset</button>
+    </section>
+
+    <section class="stats">
+      <div><strong id="totalQuestions">0</strong><span>Showing</span></div>
+      <div><strong id="score">0</strong><span>Correct</span></div>
+      <div><strong id="attempted">0</strong><span>Attempted</span></div>
+      <div><strong id="missedCount">0</strong><span>Missed</span></div>
+    </section>
+
+    <section id="questionContainer"></section>
+  </main>
+
+  <footer>
+    <p>Upload these files to GitHub Pages to update your live site.</p>
+  </footer>
+
+  <script src="questions.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
