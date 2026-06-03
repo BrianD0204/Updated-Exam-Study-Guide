@@ -1445,4 +1445,111 @@ const questions = [
     "answer": 2,
     "explanation": "Methotrexate binds directly to the active site, making it competitive. It binds through hydrogen bonds, which are weak non-covalent interactions, making it reversible."
   }
+,
+  {
+    "topic": "Abdominal Quadrants",
+    "question": "A patient has pain in the right lower quadrant (RLQ). Which organ is most likely involved?",
+    "choices": ["Spleen","Appendix","Stomach","Gallbladder"],
+    "answer": 1,
+    "explanation": "The appendix is located in the RLQ."
+  },
+  {
+    "topic": "Abdominal Quadrants",
+    "question": "Which organ is primarily located in the left upper quadrant (LUQ)?",
+    "choices": ["Gallbladder","Cecum","Spleen","Appendix"],
+    "answer": 2,
+    "explanation": "The spleen is primarily located in the LUQ."
+  },
+  {
+    "topic": "Abdominal Quadrants",
+    "question": "The gallbladder is located in which abdominal quadrant?",
+    "choices": ["LUQ","LLQ","RLQ","RUQ"],
+    "answer": 3,
+    "explanation": "The gallbladder is found in the RUQ."
+  },
+  {
+    "topic": "Abdominal Quadrants",
+    "question": "Which quadrant contains the sigmoid colon?",
+    "choices": ["RUQ","RLQ","LLQ","LUQ"],
+    "answer": 2,
+    "explanation": "The sigmoid colon is primarily located in the LLQ."
+  },
+  {
+    "topic": "Abdominal Quadrants",
+    "question": "A patient presents with pain over the cecum. Which quadrant should be examined first?",
+    "choices": ["RLQ","LUQ","RUQ","LLQ"],
+    "answer": 0,
+    "explanation": "The cecum is located in the RLQ."
+  },
+  {
+    "topic": "Abdominal Quadrants",
+    "question": "Which organ is found in the LUQ?",
+    "choices": ["Appendix","Spleen","Gallbladder","Cecum"],
+    "answer": 1,
+    "explanation": "The spleen is a major LUQ organ."
+  },
+  {
+    "topic": "Abdominal Quadrants",
+    "question": "The hepatic flexure of the colon is located in which quadrant?",
+    "choices": ["LUQ","RUQ","LLQ","RLQ"],
+    "answer": 1,
+    "explanation": "The hepatic flexure lies in the RUQ near the liver."
+  },
+  {
+    "topic": "Abdominal Quadrants",
+    "question": "Which quadrant contains most of the descending colon?",
+    "choices": ["RUQ and RLQ","LUQ and LLQ","LUQ and RUQ","RLQ only"],
+    "answer": 1,
+    "explanation": "The descending colon extends through the LUQ and LLQ."
+  },
+  {
+    "topic": "Abdominal Quadrants",
+    "question": "A patient has inflammation of the appendix. Where would pain most likely occur?",
+    "choices": ["RUQ","LUQ","RLQ","LLQ"],
+    "answer": 2,
+    "explanation": "Appendicitis classically causes RLQ pain."
+  },
+  {
+    "topic": "Abdominal Quadrants",
+    "question": "Which organ is found in the RUQ?",
+    "choices": ["Spleen","Stomach","Gallbladder","Sigmoid colon"],
+    "answer": 2,
+    "explanation": "The gallbladder is located in the RUQ."
+  },
+  {
+    "topic": "Abdominal Quadrants",
+    "question": "The stomach is primarily located in which quadrant?",
+    "choices": ["RLQ","RUQ","LLQ","LUQ"],
+    "answer": 3,
+    "explanation": "Most of the stomach lies in the LUQ."
+  },
+  {
+    "topic": "Abdominal Quadrants",
+    "question": "Which quadrant contains the ileum?",
+    "choices": ["RLQ","LUQ","RUQ","LLQ"],
+    "answer": 0,
+    "explanation": "The terminal ileum is located in the RLQ."
+  },
+  {
+    "topic": "Abdominal Quadrants",
+    "question": "A patient has pain near the splenic flexure. Which quadrant is most likely affected?",
+    "choices": ["LUQ","RUQ","RLQ","LLQ"],
+    "answer": 0,
+    "explanation": "The splenic flexure is located in the LUQ."
+  },
+  {
+    "topic": "Abdominal Quadrants",
+    "question": "Which structure is found in the LLQ?",
+    "choices": ["Gallbladder","Sigmoid colon","Appendix","Liver"],
+    "answer": 1,
+    "explanation": "The sigmoid colon is found in the LLQ."
+  },
+  {
+    "topic": "Abdominal Quadrants",
+    "question": "The duodenum is located primarily in which quadrant?",
+    "choices": ["RLQ","LLQ","RUQ","LUQ"],
+    "answer": 2,
+    "explanation": "The duodenum is primarily located in the RUQ."
+  }
+
 ];
