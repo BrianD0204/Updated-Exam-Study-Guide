@@ -11,7 +11,7 @@
   <link rel="stylesheet" href="style.css"/>
 </head>
 <body>
-  <div class="page-shell">
+<div class="page-shell">
     <header class="hero">
       <img src="images/koala-coffee.png" alt="Koala Coffee" class="hero-koala">
       <button id="darkToggle" class="dark-toggle">🌙 Dark Mode</button>
@@ -50,6 +50,42 @@
           <div class="stat-card stat-purple"><strong id="attempted">0</strong><span>Attempted</span></div>
           <div class="stat-card stat-red"><strong id="missedCount">0</strong><span>Missed</span></div>
         </section>
+
+        <section class="feature-panel">
+          <div class="progress-wrap">
+            <div class="progress-top">
+              <span>Progress</span>
+              <strong id="progressText">0%</strong>
+            </div>
+            <div class="progress-track">
+              <div id="progressBar" class="progress-bar"></div>
+            </div>
+          </div>
+
+          <div class="mini-feature timer-box">
+            <span class="mini-icon">⏱️</span>
+            <div>
+              <strong id="examTimer">25:00</strong>
+              <span>Exam Timer</span>
+            </div>
+          </div>
+
+
+          <div class="timer-settings">
+            <label for="timerMinutes">Timer</label>
+            <div class="timer-input-wrap">
+              <input id="timerMinutes" type="number" min="1" max="180" value="60">
+              <span>min</span>
+            </div>
+          </div>
+
+          <div class="timer-actions">
+            <button id="startTimerBtn" class="timer-btn">Start</button>
+            <button id="pauseTimerBtn" class="timer-btn muted-btn">Pause</button>
+            <button id="resetTimerBtn" class="timer-btn danger-btn">Reset</button>
+          </div>
+        </section>
+
       </section>
 
       <section id="questionContainer" class="questions-grid"></section>
@@ -58,6 +94,67 @@
     <footer>
       <p>You're Cute 😘</p>
     </footer>
+  </div>
+</div>
+
+
+
+  <div id="resultsModal" class="results-modal">
+    <div class="results-card">
+      <button id="closeResultsBtn" class="results-close">×</button>
+      <div class="results-icon">🎉</div>
+      <h2>Quiz Complete!</h2>
+      <p id="resultsModeTopic">All Topics</p>
+
+      <div class="results-score">
+        <strong id="resultsPercent">0%</strong>
+        <span id="resultsBreakdown">0 / 0 correct</span>
+      </div>
+
+      <div class="results-actions">
+        <button id="saveScoreBtn">Save to Leaderboard</button>
+        <button id="reviewMissedBtn" class="muted-btn">Review Missed</button>
+      </div>
+    </div>
+  </div>
+
+
+
+  <button id="flaggedOpenBtn" class="flagged-float-btn" type="button">
+    🚩 Flagged <span id="flaggedBadge">0</span>
+  </button>
+
+  <div id="flaggedModal" class="flagged-modal">
+    <div class="flagged-popup-card">
+      <button id="flaggedCloseBtn" class="flagged-close" type="button">×</button>
+
+      <div class="flagged-popup-header">
+        <h2>🚩 Flagged Questions</h2>
+        <p>Questions marked to come back to later.</p>
+      </div>
+
+      <div id="flaggedList" class="flagged-list"></div>
+    </div>
+  </div>
+
+  <button id="leaderboardOpenBtn" class="leaderboard-float-btn" type="button">
+    🏆 Leaderboard
+  </button>
+
+  <div id="leaderboardModal" class="leaderboard-modal">
+    <div class="leaderboard-popup-card">
+      <button id="leaderboardCloseBtn" class="leaderboard-close" type="button">×</button>
+
+      <div class="leaderboard-popup-header">
+        <div>
+          <h2>🏆 Leaderboard</h2>
+          <p id="topScoreText">No scores yet</p>
+        </div>
+        <button id="clearLeaderboardBtn" class="timer-btn muted-btn">Clear Scores</button>
+      </div>
+
+      <ol id="leaderboardList"></ol>
+    </div>
   </div>
 
   <a class="chatgpt-bubble" href="https://chatgpt.com" target="_blank" aria-label="Ask ChatGPT">
