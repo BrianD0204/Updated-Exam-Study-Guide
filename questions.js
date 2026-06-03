@@ -1444,112 +1444,401 @@ const questions = [
     ],
     "answer": 2,
     "explanation": "Methotrexate binds directly to the active site, making it competitive. It binds through hydrogen bonds, which are weak non-covalent interactions, making it reversible."
-  }
-,
+  },
   {
     "topic": "Abdominal Quadrants",
     "question": "A patient has pain in the right lower quadrant (RLQ). Which organ is most likely involved?",
-    "choices": ["Spleen","Appendix","Stomach","Gallbladder"],
+    "choices": [
+      "Spleen",
+      "Appendix",
+      "Stomach",
+      "Gallbladder"
+    ],
     "answer": 1,
     "explanation": "The appendix is located in the RLQ."
   },
   {
     "topic": "Abdominal Quadrants",
     "question": "Which organ is primarily located in the left upper quadrant (LUQ)?",
-    "choices": ["Gallbladder","Cecum","Spleen","Appendix"],
+    "choices": [
+      "Gallbladder",
+      "Cecum",
+      "Spleen",
+      "Appendix"
+    ],
     "answer": 2,
     "explanation": "The spleen is primarily located in the LUQ."
   },
   {
     "topic": "Abdominal Quadrants",
     "question": "The gallbladder is located in which abdominal quadrant?",
-    "choices": ["LUQ","LLQ","RLQ","RUQ"],
+    "choices": [
+      "LUQ",
+      "LLQ",
+      "RLQ",
+      "RUQ"
+    ],
     "answer": 3,
     "explanation": "The gallbladder is found in the RUQ."
   },
   {
     "topic": "Abdominal Quadrants",
     "question": "Which quadrant contains the sigmoid colon?",
-    "choices": ["RUQ","RLQ","LLQ","LUQ"],
+    "choices": [
+      "RUQ",
+      "RLQ",
+      "LLQ",
+      "LUQ"
+    ],
     "answer": 2,
     "explanation": "The sigmoid colon is primarily located in the LLQ."
   },
   {
     "topic": "Abdominal Quadrants",
     "question": "A patient presents with pain over the cecum. Which quadrant should be examined first?",
-    "choices": ["RLQ","LUQ","RUQ","LLQ"],
+    "choices": [
+      "RLQ",
+      "LUQ",
+      "RUQ",
+      "LLQ"
+    ],
     "answer": 0,
     "explanation": "The cecum is located in the RLQ."
   },
   {
     "topic": "Abdominal Quadrants",
     "question": "Which organ is found in the LUQ?",
-    "choices": ["Appendix","Spleen","Gallbladder","Cecum"],
+    "choices": [
+      "Appendix",
+      "Spleen",
+      "Gallbladder",
+      "Cecum"
+    ],
     "answer": 1,
     "explanation": "The spleen is a major LUQ organ."
   },
   {
     "topic": "Abdominal Quadrants",
     "question": "The hepatic flexure of the colon is located in which quadrant?",
-    "choices": ["LUQ","RUQ","LLQ","RLQ"],
+    "choices": [
+      "LUQ",
+      "RUQ",
+      "LLQ",
+      "RLQ"
+    ],
     "answer": 1,
     "explanation": "The hepatic flexure lies in the RUQ near the liver."
   },
   {
     "topic": "Abdominal Quadrants",
     "question": "Which quadrant contains most of the descending colon?",
-    "choices": ["RUQ and RLQ","LUQ and LLQ","LUQ and RUQ","RLQ only"],
+    "choices": [
+      "RUQ and RLQ",
+      "LUQ and LLQ",
+      "LUQ and RUQ",
+      "RLQ only"
+    ],
     "answer": 1,
     "explanation": "The descending colon extends through the LUQ and LLQ."
   },
   {
     "topic": "Abdominal Quadrants",
     "question": "A patient has inflammation of the appendix. Where would pain most likely occur?",
-    "choices": ["RUQ","LUQ","RLQ","LLQ"],
+    "choices": [
+      "RUQ",
+      "LUQ",
+      "RLQ",
+      "LLQ"
+    ],
     "answer": 2,
     "explanation": "Appendicitis classically causes RLQ pain."
   },
   {
     "topic": "Abdominal Quadrants",
     "question": "Which organ is found in the RUQ?",
-    "choices": ["Spleen","Stomach","Gallbladder","Sigmoid colon"],
+    "choices": [
+      "Spleen",
+      "Stomach",
+      "Gallbladder",
+      "Sigmoid colon"
+    ],
     "answer": 2,
     "explanation": "The gallbladder is located in the RUQ."
   },
   {
     "topic": "Abdominal Quadrants",
     "question": "The stomach is primarily located in which quadrant?",
-    "choices": ["RLQ","RUQ","LLQ","LUQ"],
+    "choices": [
+      "RLQ",
+      "RUQ",
+      "LLQ",
+      "LUQ"
+    ],
     "answer": 3,
     "explanation": "Most of the stomach lies in the LUQ."
   },
   {
     "topic": "Abdominal Quadrants",
     "question": "Which quadrant contains the ileum?",
-    "choices": ["RLQ","LUQ","RUQ","LLQ"],
+    "choices": [
+      "RLQ",
+      "LUQ",
+      "RUQ",
+      "LLQ"
+    ],
     "answer": 0,
     "explanation": "The terminal ileum is located in the RLQ."
   },
   {
     "topic": "Abdominal Quadrants",
     "question": "A patient has pain near the splenic flexure. Which quadrant is most likely affected?",
-    "choices": ["LUQ","RUQ","RLQ","LLQ"],
+    "choices": [
+      "LUQ",
+      "RUQ",
+      "RLQ",
+      "LLQ"
+    ],
     "answer": 0,
     "explanation": "The splenic flexure is located in the LUQ."
   },
   {
     "topic": "Abdominal Quadrants",
     "question": "Which structure is found in the LLQ?",
-    "choices": ["Gallbladder","Sigmoid colon","Appendix","Liver"],
+    "choices": [
+      "Gallbladder",
+      "Sigmoid colon",
+      "Appendix",
+      "Liver"
+    ],
     "answer": 1,
     "explanation": "The sigmoid colon is found in the LLQ."
   },
   {
     "topic": "Abdominal Quadrants",
     "question": "The duodenum is located primarily in which quadrant?",
-    "choices": ["RLQ","LLQ","RUQ","LUQ"],
+    "choices": [
+      "RLQ",
+      "LLQ",
+      "RUQ",
+      "LUQ"
+    ],
     "answer": 2,
     "explanation": "The duodenum is primarily located in the RUQ."
+  },
+  {
+    "topic": "Chemistry",
+    "question": "What primarily determines an element's chemical reactivity?",
+    "choices": [
+      "Valence electrons in outer shell",
+      "Atomic number defines reactivity",
+      "Number of neutrons",
+      "Electron mass effect",
+      "Nuclear charge alone"
+    ],
+    "answer": 0,
+    "explanation": "Valence electrons in the outermost shell determine how atoms bond and react. Valence = value electrons for bonding."
+  },
+  {
+    "topic": "Chemistry",
+    "question": "How does electronegativity influence ionic bond formation?",
+    "choices": [
+      "Small differences cause ionic bonds",
+      "Equal electronegativity forms ionic bonds",
+      "Large electronegativity difference causes ionic bonds",
+      "Low electronegativity causes ionic bonds",
+      "Similar electronegativity causes ionic bonds"
+    ],
+    "answer": 2,
+    "explanation": "Ionic bonds form when one atom transfers electrons to another because of a large electronegativity difference."
+  },
+  {
+    "topic": "Chemistry",
+    "question": "What distinguishes polar from nonpolar covalent bonds?",
+    "choices": [
+      "Equal sharing of electrons",
+      "Unequal sharing of electrons",
+      "Electron transfer between atoms",
+      "Difference in bond length",
+      "Presence of partial positive charge"
+    ],
+    "answer": 1,
+    "explanation": "Polar covalent bonds involve unequal sharing of electrons because one atom is more electronegative."
+  },
+  {
+    "topic": "Chemistry",
+    "question": "Which is NOT a weak intermolecular interaction?",
+    "choices": [
+      "Ionic interactions",
+      "Dipole-dipole forces",
+      "Hydrogen bonding",
+      "Covalent bonds",
+      "Hydrophobic interactions"
+    ],
+    "answer": 3,
+    "explanation": "Covalent bonds are strong intramolecular bonds that hold atoms together within molecules."
+  },
+  {
+    "topic": "Chemistry",
+    "question": "Why does ice float, preserving aquatic life?",
+    "choices": [
+      "Ice melts at 0°C",
+      "Ice is less dense",
+      "Water has high heat capacity",
+      "O-H bonds are covalent",
+      "Water behaves nonpolarly"
+    ],
+    "answer": 1,
+    "explanation": "Hydrogen bonding creates an open crystal lattice in ice, making it less dense than liquid water."
+  },
+  {
+    "topic": "Neuron Physiology",
+    "question": "Which of the following best describes the result of a demyelinating disease such as multiple sclerosis?",
+    "choices": [
+      "Action potential propagation becomes more saltatory",
+      "Propagation of action potentials down an axon can fail",
+      "The conduction velocity of most axons increases",
+      "The rate of action potential production increases",
+      "Voltage-gated sodium channels are downregulated"
+    ],
+    "answer": 1,
+    "explanation": "Loss of myelin slows conduction, causes signal degradation, and can completely block action potentials."
+  },
+  {
+    "topic": "Neuron Physiology",
+    "question": "Which of the following best describes the postsynaptic neuron prior to initiation of an action potential?",
+    "choices": [
+      "Inactivation gates of voltage-gated Na+ channels are closed",
+      "Membrane conductance of K+ is higher than conductance of Na+",
+      "Membrane conductance of Na+ is higher than conductance of K+",
+      "Na+/K+ ATPase transporter is inactive",
+      "There is no membrane conductance of either Na+ or K+"
+    ],
+    "answer": 1,
+    "explanation": "At rest, the membrane is more permeable to potassium than sodium. Resting neuron = leaky to K+."
+  },
+  {
+    "topic": "Neuron Physiology",
+    "question": "During which phase of the action potential is K+ conductance highest?",
+    "choices": [
+      "Depolarization",
+      "Hyperpolarization",
+      "Repolarization",
+      "Resting membrane potential"
+    ],
+    "answer": 2,
+    "explanation": "During repolarization, voltage-gated K+ channels are open and potassium exits the cell rapidly."
+  },
+  {
+    "topic": "Neuron Physiology",
+    "question": "Which of the following is most important in maintaining the resting membrane potential?",
+    "choices": [
+      "Active potassium transport into the neuron",
+      "Active sodium transport into the neuron",
+      "Ligand-gated sodium channels",
+      "Positively charged proteins inside the neuron",
+      "Voltage-gated potassium channels"
+    ],
+    "answer": 0,
+    "explanation": "The Na+/K+ ATPase pumps 3 Na+ out and 2 K+ in, maintaining ion gradients needed for resting membrane potential."
+  },
+  {
+    "topic": "Biomolecules & Metabolism",
+    "question": "Which biomolecule is primarily responsible for genetic information storage?",
+    "choices": [
+      "Proteins",
+      "Carbohydrates",
+      "Nucleic acids",
+      "Lipids"
+    ],
+    "answer": 2,
+    "explanation": "DNA and RNA are nucleic acids that store and transmit genetic information."
+  },
+  {
+    "topic": "Biomolecules & Metabolism",
+    "question": "Which macronutrient provides 9 kcal per gram and includes essential fatty acids?",
+    "choices": [
+      "Carbohydrates",
+      "Proteins",
+      "Vitamins",
+      "Lipids",
+      "Minerals"
+    ],
+    "answer": 3,
+    "explanation": "Lipids provide 9 kcal per gram and include essential fatty acids such as omega-3 and omega-6."
+  },
+  {
+    "topic": "Biomolecules & Metabolism",
+    "question": "What is a key difference between catabolic and anabolic pathways?",
+    "choices": [
+      "Catabolism consumes ATP",
+      "Anabolism consumes ATP",
+      "Anabolism produces ATP",
+      "Catabolism builds molecules",
+      "Anabolism degrades molecules"
+    ],
+    "answer": 1,
+    "explanation": "Anabolism builds molecules and consumes ATP. Catabolism breaks molecules down and produces ATP."
+  },
+  {
+    "topic": "Biomolecules & Metabolism",
+    "question": "Which statement best describes the role of the TCA cycle?",
+    "choices": [
+      "Synthesizes fatty acids directly",
+      "Exclusively catabolic pathway",
+      "Amphibolic: catabolic and anabolic",
+      "Primary source of NADPH",
+      "Only catabolizes amino acids"
+    ],
+    "answer": 2,
+    "explanation": "The TCA cycle is amphibolic because it produces energy and supplies intermediates for biosynthesis."
+  },
+  {
+    "topic": "Biomolecules & Metabolism",
+    "question": "What metabolic adaptation explains muscle wasting in prolonged low-calorie diets?",
+    "choices": [
+      "Increased glycogen synthesis",
+      "Gluconeogenesis from amino acids",
+      "Increased lipogenesis",
+      "Ketogenesis from dietary fat",
+      "Increased insulin secretion"
+    ],
+    "answer": 1,
+    "explanation": "When glucose is scarce, muscle proteins are broken down and amino acids are used for gluconeogenesis."
+  },
+  {
+    "topic": "Cell Signaling",
+    "question": "A hormone diffuses through the cell membrane and binds a nuclear receptor. Which statement is true?",
+    "choices": [
+      "Hormone is hydrophilic; receptor induces transcription",
+      "Hormone is hydrophilic; receptor induces translation",
+      "Hormone is lipophilic; receptor induces transcription",
+      "Hormone is lipophilic; receptor induces translation"
+    ],
+    "answer": 2,
+    "explanation": "Lipophilic hormones can cross membranes and bind nuclear receptors that regulate transcription."
+  },
+  {
+    "topic": "Cell Signaling",
+    "question": "P-selectin binds leukocytes and mediates cell adhesion. What type of receptor is P-selectin?",
+    "choices": [
+      "Adhesion receptor",
+      "G protein-coupled receptor",
+      "Nuclear receptor",
+      "Receptor tyrosine kinase"
+    ],
+    "answer": 0,
+    "explanation": "P-selectin is an adhesion molecule that helps leukocytes stick during inflammation."
+  },
+  {
+    "topic": "Cell Signaling",
+    "question": "Calcium binds calmodulin and triggers cellular changes. Calcium acts as which of the following?",
+    "choices": [
+      "Primary effector",
+      "Primary messenger",
+      "Secondary effector",
+      "Secondary messenger"
+    ],
+    "answer": 3,
+    "explanation": "Calcium is a classic intracellular second messenger that can activate calmodulin."
   }
-
 ];
