@@ -5,48 +5,67 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>❤️❤️❤️ You got this ❤️❤️❤️</title>
   <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>☕</text></svg>">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css"/>
 </head>
 <body>
-  <header>
-    <button id="darkToggle" class="dark-toggle">🌙 Dark Mode</button>
-    <h1>🤍☕🐨 Dr.Kristal's Study Guide 🐨☕🤍</h1>
-    <p>Study Mode • Quiz Mode • Flashcards • Random Exam • Missed Questions</p>
-  </header>
+  <div class="page-shell">
+    <header class="hero">
+      <img src="images/koala-coffee.png" alt="Koala Coffee" class="hero-koala">
+      <button id="darkToggle" class="dark-toggle">🌙 Dark Mode</button>
 
-  <main>
-    <section class="controls">
-      <input id="search" type="text" placeholder="Search questions...">
-      <select id="topicFilter"><option value="All">All Topics</option></select>
-      <select id="modeSelect">
-        <option value="study">Study Mode</option>
-        <option value="quiz">Quiz Mode</option>
-        <option value="flashcards">Flashcards</option>
-        <option value="random">Random 25 Exam</option>
-        <option value="missed">Missed Questions</option>
-      </select>
-      <button id="shuffleBtn">Shuffle</button>
-      <button id="resetBtn">Reset</button>
-    </section>
+      <div class="hero-content">
+        <h1>🤍☕🐨 Dr. Kristal's Study Guide 🐨☕🤍</h1>
+        <p>Practice with study mode, quiz mode, flashcards, random exams, and missed-question review.</p>
+      </div>
+    </header>
 
-    <section class="stats">
-      <div><strong id="totalQuestions">0</strong><span>Showing</span></div>
-      <div><strong id="score">0</strong><span>Correct</span></div>
-      <div><strong id="attempted">0</strong><span>Attempted</span></div>
-      <div><strong id="missedCount">0</strong><span>Missed</span></div>
-    </section>
+    <main>
+      <section class="dashboard-card">
+        <div class="controls">
+          <div class="input-wrap">
+            <span>🔎</span>
+            <input id="search" type="text" placeholder="Search questions, topics, or answers...">
+          </div>
 
-    <section id="questionContainer"></section>
-  </main>
+          <select id="topicFilter"><option value="All">All Topics</option></select>
 
-  <footer>
-    <p>You're Cute 😘</p>
-  </footer>
+          <select id="modeSelect">
+            <option value="study">Study Mode</option>
+            <option value="quiz">Quiz Mode</option>
+            <option value="flashcards">Flashcards</option>
+            <option value="random">Random 25 Exam</option>
+            <option value="missed">Missed Questions</option>
+          </select>
+
+          <button id="shuffleBtn" class="secondary-btn">Shuffle</button>
+          <button id="resetBtn" class="danger-btn">Reset</button>
+        </div>
+
+        <section class="stats">
+          <div class="stat-card stat-blue"><strong id="totalQuestions">0</strong><span>Showing</span></div>
+          <div class="stat-card stat-green"><strong id="score">0</strong><span>Correct</span></div>
+          <div class="stat-card stat-purple"><strong id="attempted">0</strong><span>Attempted</span></div>
+          <div class="stat-card stat-red"><strong id="missedCount">0</strong><span>Missed</span></div>
+        </section>
+      </section>
+
+      <section id="questionContainer" class="questions-grid"></section>
+    </main>
+
+    <footer>
+      <p>You're Cute 😘</p>
+    </footer>
+  </div>
+
+  <a class="chatgpt-bubble" href="https://chatgpt.com" target="_blank" aria-label="Ask ChatGPT">
+    <span>💬</span>
+    <strong>Ask ChatGPT</strong>
+  </a>
 
   <script src="questions.js"></script>
   <script src="script.js"></script>
-  <a class="chatgpt-bubble" href="https://chatgpt.com" target="_blank">
-  💬 Ask ChatGPT
-</a>
 </body>
 </html>
